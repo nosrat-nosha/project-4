@@ -1,0 +1,46 @@
+.navbar{
+  
+    opacity: 0.9;
+   
+}
+#home {
+    position: relative;
+    background: url(../img/mountains.jpg);
+  
+    font-size: 2rem;
+    height:750px;
+ 
+}
+
+.overlay { 
+    position: absolute;
+    left:0;
+    right: 0;
+    width: 100%;
+    min-height:100%;
+    background:rgba(50, 146,166,0.8);
+}
+
+  
+@media (max-width:768px) {
+   #home { 
+       min-height :500px;}
+    
+       h1{
+           font-size:4rem;
+       }
+    .mb-resp {
+        margin-bottom :1rem;
+    }
+           
+         
+        
+       
+   } 
+  /*smoth scrolling */
+   html {
+    scroll-behavior: smooth;
+  }
+
+
+  
